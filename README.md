@@ -1,15 +1,15 @@
 # IAI_SLE2
-BFS and DFS Route Finding
+ ## BFS and DFS Route Finding
 
-1. Project Title
+### 1. Project Title
 
 Route Finding using BFS and DFS in Python
 
-2. Course
+### 2. Course
 
 02AML204 — Introduction to Artificial Intelligence
 
-3. Problem Statement
+### 3. Problem Statement
 
 Find a route from a starting location to a destination using two AI search algorithms:
 
@@ -18,7 +18,7 @@ Find a route from a starting location to a destination using two AI search algor
 
 The same graph is used for both algorithms so that their search behaviour can be compared.
 
-4. Graph Used
+### 4. Graph Used
 
 The route graph contains the following connections:
 
@@ -66,7 +66,7 @@ The program records:
 - Route found
 - Number of nodes visited
 
-7. Example
+### 7. Example
 
 Starting node:
 
@@ -104,7 +104,7 @@ Nodes visited:
 
 4
 
-8. BFS vs DFS
+### 8. BFS vs DFS
 
 Feature| BFS| DFS
 Full form| Breadth-First Search| Depth-First Search
@@ -113,7 +113,7 @@ Data structure| Queue| Stack
 Shortest path in unweighted graph| Yes| No guarantee
 Example nodes visited| 7| 4
 
-9. Profiling using PySpy
+### 9. Profiling using PySpy
 
 PySpy can be used to profile the Python program and observe its execution behaviour.
 
@@ -124,6 +124,6 @@ dfs()
 
 PySpy helps identify where the Python program spends its execution time.
 
-10. Conclusion
+## 10. Conclusion
 
 This project demonstrates route finding as an AI search problem. BFS explores level by level, while DFS explores deeply before backtracking. Both algorithms can find a route from A to G, but they use different search strategies.
